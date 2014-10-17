@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh spawar@dev-n01 <<EOF
+ssh root@162.209.74.47 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
