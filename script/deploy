@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh root@162.209.74.47 <<EOF
-  cd ~/hello-jenkins
+  cd ~/var/www/vhosts/hello-jenkins
   git pull
   npm install --production
   forever restartall
