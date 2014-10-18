@@ -4,5 +4,6 @@ ssh root@162.209.74.47 <<EOF
   git pull
   npm install --production
   forever restartall
+  node app.js
   exit
 EOF
